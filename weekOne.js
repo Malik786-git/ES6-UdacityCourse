@@ -7,15 +7,15 @@
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
-const cheetah = {
-    name: 'Cheetah',
-    scientificName: 'Acinonyx jubatus',
-    lifespan: '10-12 years',
-    speed: '68-75 mph',
-    diet: 'carnivore',
-    summary: 'Fastest mammal on land, the cheetah can reach speeds of 60 or perhaps even 70 miles (97 or 113 kilometers) an hour over short distances. It usually chases its prey at only about half that speed, however. After a chase, a cheetah needs half an hour to catch its breath before it can eat.',
-    fact: 'Cheetahs have “tear marks” that run from the inside corners of their eyes down to the outside edges of their mouth.'
-};
+// const cheetah = {
+//     name: 'Cheetah',
+//     scientificName: 'Acinonyx jubatus',
+//     lifespan: '10-12 years',
+//     speed: '68-75 mph',
+//     diet: 'carnivore',
+//     summary: 'Fastest mammal on land, the cheetah can reach speeds of 60 or perhaps even 70 miles (97 or 113 kilometers) an hour over short distances. It usually chases its prey at only about half that speed, however. After a chase, a cheetah needs half an hour to catch its breath before it can eat.',
+//     fact: 'Cheetahs have “tear marks” that run from the inside corners of their eyes down to the outside edges of their mouth.'
+// };
 
 // creates an animal trading card
 // function createAnimalTradingCardHTML(animal) {
@@ -87,23 +87,26 @@ const cheetah = {
 // const order = [20.17, 18.67, 1.50, "cheese", "eggs", "milk", "bread"];
 // const [total, subtotal, tax, ...items] = order;
 // console.log(total, subtotal, tax, items);
-// -------------------------------------------------
-function average(...numbers) {
-    let total = 0;
-    for(const num of numbers){
-        total += num;
-    }
-    if (numbers.length === 0 ) {
-        return total;
-    }
-    return total/numbers.length;
-}
+// // -------------------------------------------------
+// function average(...numbers) {
+//     let total = 0;
+//     for(const num of numbers){
+//         total += num;
+//     }
+//     if (numbers.length === 0 ) {
+//         return total;
+//     }
+//     return total/numbers.length;
+// }
 
 // console.log(average(2, 6));
 // console.log(average(2, 3, 3, 5, 7, 10));
 // console.log(average(7, 1432, 12, 13, 100));
-console.log(average());
+// console.log(average());
 /////////////////////////////////////////////////////////////////////////////////////////
+//
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
